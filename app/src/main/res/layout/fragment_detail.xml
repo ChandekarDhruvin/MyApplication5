@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailFragment"
+    android:background="@color/teal_200">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textofframe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Details"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/fnameFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textofframe"
+        android:layout_marginTop="10dp"
+        android:padding="12dp"
+        android:paddingLeft="20dp"
+        android:text="First Name : "
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="20dp"
+
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lnameFrame"
+        android:layout_below="@id/fnameFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name : "
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/ageFrame"
+        android:layout_below="@id/lnameFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+
+        android:text="Age : "
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        />
+
+</RelativeLayout>

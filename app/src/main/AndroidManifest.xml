@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".TabLayoutNewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailsTakingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentLoadWithJAVA"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentLoadWithXML"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="false" />
+        <activity
+            android:name=".HomeSp"
+            android:exported="false" />
+        <activity
+            android:name=".LoginSp"
+            android:exported="false" />
+        <activity
+            android:name=".SharedPrefrenceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeBackPage"
+            android:exported="false" />
+        <activity
+            android:name=".MyWeb_View"
+            android:exported="false" />
+        <activity
+            android:name=".ImageChangeAPP"
+            android:exported="false" />
+        <activity
+            android:name=".TicTacToe"
+            android:exported="false" />
+        <activity
+            android:name=".CurrencyConvertor"
+            android:exported="false" />
+        <activity
+            android:name=".CustomDialogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DateTimeModuleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewsPaperApp"
+            android:exported="false" />
+        <activity
+            android:name=".AlertActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SeekbarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VideoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GradeView11"
+            android:exported="false" />
+        <activity
+            android:name=".listview1"
+            android:exported="false" />
+        <activity
+            android:name=".AutoCompleteText"
+            android:exported="false" />
+        <activity
+            android:name=".SpinnerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BottomBarActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
